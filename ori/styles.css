@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-placeholder {
+    background-color: #e0e0e0;
+    width: 100%;
+}
+
+.service .card {
+    border: none;
+}
+
+.service .card-body {
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    .service {
+        flex: 1 1 calc(50% - 20px);
+        margin: 10px;
+    }
+}
